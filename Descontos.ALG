@@ -11,7 +11,7 @@ Var
 Inicio
 X := VERDADEIRO
 FLAG <- X
-ENQUANTO FLAG FA«A
+ENQUANTO FLAG FA√áA
    X := VERDADEIRO
    MUDACOR("Amarelo","FRENTE")
    limpatela
@@ -21,23 +21,23 @@ ENQUANTO FLAG FA«A
    Escreval("4 - 30% Desconto ")
    Escreva("Qual o produto?")
    Leia(nome)
-   Escreva("Qual o preÁo?")
+   Escreva("Qual o pre√ßo?")
    Leia(preco)
    Escreva("Quantas quantidades necessita?")
    Leia(opcao)
    quantidade<-opcao
    Escolha opcao
-   Caso 1 AT… 4
-      ESCREVAL("O preÁo È", preco * quantidade)
-   Caso 5 AT… 10
-      ESCREVAL("O preÁo È", preco * quantidade - (preco*5/100))
-   Caso 11 AT… 20
-      ESCREVAL("O preÁo È", preco * quantidade - (preco*15)/100))
-   Caso 20
-      ESCREVAL("O preÁo È", preco * quantidade - (preco*30)/100))
+   Caso 1 AT√â 4
+      ESCREVAL("O pre√ßo √©", preco * quantidade)
+   Caso 5 AT√â 10
+      ESCREVAL("O pre√ßo √©", preco * quantidade - (preco*5/100))
+   Caso 11 AT√â 20
+      ESCREVAL("O pre√ßo √©", preco * quantidade - (preco*15)/100))
+   Caso >20
+      ESCREVAL("O pre√ßo √©", preco * quantidade - (preco*30)/100))
       FLAG := FALSO
    OUTROCASO
-      Escreval("O preÁo È", preco * quantidade - (preco*30)/100)
+      Escreval("O pre√ßo √©", preco * quantidade - (preco*30)/100)
 
    Fimescolha
 
